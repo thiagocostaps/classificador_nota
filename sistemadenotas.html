@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Classificação da Nota</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+      text-align: center;
+    }
+    input, button {
+      padding: 10px;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    #resultado {
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Digite sua nota (0 a 10):</h2>
+  <input type="number" id="nota" step="0.1" min="0" max="10">
+  <br>
+  <button onclick="classificarNota()">Ver resultado</button>
+
+  <div id="resultado"></div>
+
+  <script>
+    function classificarNota() {
+      const media = parseFloat(document.getElementById("nota").value);
+      const resultado = document.getElementById("resultado");
+      resultado.textContent = ""; // limpa o resultado anterior
+
+      if (media >= 9.5 && media <= 10) {
+        resultado.textContent = "Excelente";
+      }
+
+      if (media >= 8.0 && media < 9.5) {
+        resultado.textContent = "Bom";
+      }
+
+      if (media >= 5.1 && media < 8.0) {
+        resultado.textContent = "Regular";
+      }
+
+      if (media >= 2.1 && media <= 5.0) {
+        resultado.textContent = "Ruim";
+      }
+
+      if (media >= 0 && media <= 2.0) {
+        resultado.textContent = "Péssimo";
+      }
+
+      if (media < 0 || media > 10 || isNaN(media)) {
+        resultado.textContent = "Nota fora do intervalo ou inválida.";
+      }
+    }
+  </script>
+
+</body>
+</html>
