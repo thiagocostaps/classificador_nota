@@ -21,9 +21,8 @@ Este é um mini-projeto desenvolvido em HTML e JavaScript que classifica a nota 
 
 ## 🚀 Acesse a página online
 
-👉 [Clique aqui para ver o projeto funcionando](https://thiagocostaps.github.io/index.html)
+👉 [Clique aqui para ver o projeto funcionando](https://thiagocostaps.github.io/index)
 
-*(Altere o link acima com o seu nome de usuário do GitHub quando publicar!)*
 
 ## 🛠 Tecnologias usadas
 
