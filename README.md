@@ -21,7 +21,7 @@ Este é um mini-projeto desenvolvido em HTML e JavaScript que classifica a nota 
 
 ## 🚀 Acesse a página online
 
-👉 [Clique aqui para ver o projeto funcionando](https://SEUNOMEDEUSUARIO.github.io/classificador-nota)
+👉 [Clique aqui para ver o projeto funcionando](https://thiagocostaps.github.io/index.html)
 
 *(Altere o link acima com o seu nome de usuário do GitHub quando publicar!)*
 
